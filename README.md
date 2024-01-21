@@ -6,7 +6,7 @@
 
 ## Description
 
-*blocker* redirect hosts ip addresses to 0.0.0.0 instead of resolve the related ip address.
+*blocker* redirects hosts' IP addresses to 0.0.0.0 instead of resolving the related IP address.
 
 ## Syntax
 
