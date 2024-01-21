@@ -21,7 +21,7 @@ If monitoring is enabled (via the *prometheus* plugin) then the following metric
 
 ## Examples
 
-Hosts file example [Steven Black hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
+Hosts file example [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 
 ```
 example.com {
