@@ -65,17 +65,6 @@ func scanHosts(file string) (map[string]struct{}, error) {
 		return hosts, fmt.Errorf("reading hosts file : %s", err)
 	}
 
-	// var s scanner.Scanner
-	// s.Init(f)
-	// for tok := s.Scan(); tok != scanner.EOF; tok = s.Scan() {
-	// 	if ignoreLine(ignore, s.TokenText()) {
-	// 		continue
-	// 	}
-	//
-	// 	host, _ := strings.CutPrefix(s.TokenText(), "0.0.0.0")
-	// 	hosts[strings.TrimSpace(host)] = struct{}{}
-	// }
-
 	return hosts, nil
 }
 
